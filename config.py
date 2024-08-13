@@ -23,7 +23,7 @@ API_HASH = environ.get("API_HASH", "7e072695ea40c46434142ae1156f95d8")
 BOT_TOKEN = environ.get("BOT_TOKEN", "")
 
 PICS = (environ.get('PICS', 'https://graph.org/file/ce1723991756e48c35aa1.jpg')).split() # Bot Start Picture
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5711744886').split()]
 BOT_USERNAME = environ.get("BOT_USERNAME", "ddbossfiles_bot") # without @
 PORT = environ.get("PORT", "8080")
 
